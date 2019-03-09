@@ -6,6 +6,7 @@ import { environment } from 'src/environments/environment';
 })
 export abstract class BaseHttpService {
   baseUrl: string;
+
   constructor() {
     this.baseUrl = environment.serverUrl;
   }
